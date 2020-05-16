@@ -10,13 +10,13 @@ import unicodedata
 from stix2 import FileSystemSource,Filter
 
 #INTPUTS
-ATOMIC = '/root/atomic-red-team/' #atomic red team library
-CTI = '/root/Documents/cti/enterprise-attack' #cti library
+ATOMIC = 'atomic-red-team/' #atomic red team library
+CTI = '/cti/enterprise-attack' #cti library
 
-SYSTEMS = '/root/Documents/XSsystems/' #folder containing CSV
-EMIT = '/root/Documents/emit100.jsonl' #logfile emitted by peek
+SYSTEMS = 'systems/' #folder containing CSV
+EMIT = 'input/emit.jsonl' #logfile emitted by peek
 
-OUTPUT = '/root/Documents/jsons/output/' #output directory
+OUTPUT = 'output/' #output directory
 
 #-------------------------------------------------------------
 startTime = time.time() #time measurement
