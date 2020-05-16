@@ -11,7 +11,7 @@ from stix2 import FileSystemSource,Filter
 
 #INTPUTS
 ATOMIC = 'atomic-red-team/' #atomic red team library
-CTI = '/cti/enterprise-attack' #cti library
+CTI = 'cti/enterprise-attack' #cti library
 
 SYSTEMS = 'systems/' #folder containing CSV
 EMIT = 'input/emit.jsonl' #logfile emitted by peek
