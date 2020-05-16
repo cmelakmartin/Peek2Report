@@ -1,0 +1,6 @@
+[submodule "cti"]
+	path = cti
+	url = https://github.com/mitre/cti.git
+[submodule "atomic"]
+	path = atomic
+	url = https://github.com/redcanaryco/atomic-red-team.git
