@@ -21,7 +21,8 @@ Also, check if Emit.log has all techniques in correct format (e.g. T1031: Schedu
 
 ## Report creation
 Once the script is finished, it will create output files for ATT&CK Navigator (JSON), RawGraphs tool in CSV (https://app.rawgraphs.io/) and Report.MD
-Matrix in Navigator shall be copied and added to Report.MD as well as graphs and diagrams from RawGraphs. Also, it is reccomend to title them. 
+
+Matrix represented in Navigator shall be copied and added to Report.MD as well as graphs and diagrams from RawGraphs. Also, it is reccomend to title them. The command for adding picture is ```![alt text](http://url/to/img.png)``` or ```![alt text](folder/img.png) ```
 
 Report can be previewed on GitHub or locally using grip (https://github.com/joeyespo/grip). Report can be converted to PDF while it is a good practice to use ```<div style="page-break-after: always; break-after: page;"></div>``` in inspect element mode of the browser. 
 
