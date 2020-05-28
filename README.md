@@ -24,6 +24,7 @@ Once the script is finished, it will create output files for ATT&CK Navigator (J
 Matrix in Navigator shall be copied and added to Report.MD as well as graphs and diagrams from RawGraphs. Also, it is reccomend to title them. 
 
 Report can be previewed on GitHub or locally using grip (https://github.com/joeyespo/grip). Report can be converted to PDF while it is a good practice to use ```<div style="page-break-after: always; break-after: page;"></div>``` in inspect element mode of the browser. 
+
 An ommited example of the report is here: https://github.com/cmelakmartin/Peek2Report/blob/master/report.pdf
  
 
