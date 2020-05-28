@@ -19,6 +19,9 @@ Also, check if Emit.log has all techniques in correct format (e.g. T1031: Schedu
 ## Script overview
 ![Script overview](https://github.com/cmelakmartin/Peek2Report/blob/master/script.PNG?raw=true)
 
+## Running the script
+The script can be started using ```python main.py``` in the terminal. Although I suggest to use Jupyter Lab (https://github.com/jupyterlab/jupyterlab) for easier interaction. 
+
 ## Report creation
 Once the script is finished, it will create output files for ATT&CK Navigator (JSON), RawGraphs tool in CSV (https://app.rawgraphs.io/) and Report.MD
 
